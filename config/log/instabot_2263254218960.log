@@ -1,0 +1,29 @@
+2024-11-02 14:41:16,428 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2024-11-02 14:41:16,428 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\omaro\AppData\Local\Programs\Python\Python311\Lib\site-packages\instabot\bot\bot.py
+2024-11-02 14:41:16,428 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2024-11-02 14:41:16,748 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [429]>
+2024-11-02 14:41:16,748 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"Please wait a few minutes before you try again.","status":"fail"}'
+2024-11-02 14:41:16,754 - instabot version: 0.117.0 (api) - ERROR - Request returns 429 error!
+2024-11-02 14:41:16,755 - instabot version: 0.117.0 (api) - WARNING - That means 'too many requests'. I'll go to sleep for 5 minutes.
+2024-11-02 14:46:17,102 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [429]>
+2024-11-02 14:46:17,103 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"Please wait a few minutes before you try again.","status":"fail"}'
+2024-11-02 14:46:17,103 - instabot version: 0.117.0 (api) - ERROR - Request returns 429 error!
+2024-11-02 14:46:17,103 - instabot version: 0.117.0 (api) - WARNING - That means 'too many requests'. I'll go to sleep for 10 minutes.
+2024-11-02 14:56:17,460 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [429]>
+2024-11-02 14:56:17,460 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"Please wait a few minutes before you try again.","status":"fail"}'
+2024-11-02 14:56:17,460 - instabot version: 0.117.0 (api) - ERROR - Request returns 429 error!
+2024-11-02 14:56:17,461 - instabot version: 0.117.0 (api) - WARNING - That means 'too many requests'. I'll go to sleep for 15 minutes.
+2024-11-02 15:11:17,866 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [400]>
+2024-11-02 15:11:17,867 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"","status":"fail"}'
+2024-11-02 15:11:17,867 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2024-11-02 15:11:17,868 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: 
+2024-11-02 15:11:17,868 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2024-11-02 15:11:18,200 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2024-11-02 15:11:18,581 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2024-11-02 15:11:18,991 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2024-11-02 15:11:21,960 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2024-11-02 15:11:21,960 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"challenge_required","challenge":{"url":"https://i.instagram.com/challenge/AXGrNOj-mDtBxY5hJTSl0JwT5rMDr9n00OPhuh0q5B9xHCr0n4cVBL_vSdA4QU_FPTfF2XM/Afx7JCovIGs5X39ki0oOnTM61cVHoQQCTWcHxUDz00fJu2U90WgcRuH3SImpsC1Hm2YdwtIDfhnlpw/","api_path":"/challenge/AXGrNOj-mDtBxY5hJTSl0JwT5rMDr9n00OPhuh0q5B9xHCr0n4cVBL_vSdA4QU_FPTfF2XM/Afx7JCovIGs5X39ki0oOnTM61cVHoQQCTWcHxUDz00fJu2U90WgcRuH3SImpsC1Hm2YdwtIDfhnlpw/","hide_webview_header":true,"lock":true,"logout":false,"native_flow":true,"flow_render_type":0},"status":"fail","error_type":"checkpoint_challenge_required"}'
+2024-11-02 15:11:21,960 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2024-11-02 15:11:21,961 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2024-11-02 15:11:21,962 - instabot version: 0.117.0 (api) - INFO - Error type: checkpoint_challenge_required
+2024-11-02 15:11:21,963 - instabot version: 0.117.0 (api) - CRITICAL - Not logged in!
