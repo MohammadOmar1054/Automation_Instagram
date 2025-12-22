@@ -1,2 +1,3 @@
 username = 'mo_omer.ai' 
-password = 'blockchain1054'
+password = input('Enter the password for {}  : '.format(username))
+

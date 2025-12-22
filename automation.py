@@ -3,6 +3,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.service import Service
 import time
+import credentials
+from credentials import username , password
 
 def send_message_to_accounts(accounts, message):
     service = Service(executable_path="C:\\Users\omaro\Downloads\chromedriver-win64\chromedriver.exe")
@@ -13,7 +15,7 @@ def send_message_to_accounts(accounts, message):
 
     # Log in to Instagram
     username_input = driver.find_element(By.NAME, "mo_omer.ai")
-    password_input = driver.find_element(By.NAME, "blockchain1054")
+    password_input = driver.find_element(By.NAME, password)
 
     username_input.send_keys('lunaticallyyyy')  # Replace with your username
     password_input.send_keys('omar12345')    # Replace with your password
@@ -70,7 +72,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
-for i in range(400) : 
-    print('dO NOT LET THE AUTOMATION TAKE PLACE !!')
-    print('adding another useless !! ')
